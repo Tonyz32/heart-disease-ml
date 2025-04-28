@@ -41,7 +41,7 @@ Overall, the models showed balanced precision, recall, and AUC metrics, highligh
 ## 📊 Data Visualizations
 Here’s a heatmap showing the correlation between different features in the dataset.
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](correlation_heatmap.png)
 
 This plot visualizes the relationships between variables and helps in feature selection for machine learning models.
 
