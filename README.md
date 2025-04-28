@@ -26,6 +26,18 @@ It contains 918 observations and 12 health-related features, including:
 - Evaluate model performance using relevant classification metrics
 - Explain and interpret model decisions to support transparency in health risk prediction
 
+## 📈 Results Summary
+Three machine learning models were trained and evaluated to predict heart disease risk: Random Forest, XGBoost, and Logistic Regression.  
+All models demonstrated strong predictive performance, with **Random Forest** achieving the highest overall F1 score (88.9%) and ROC AUC (92.4%).  
+**Logistic Regression** achieved the best recall (93.1%), which is particularly important in healthcare settings to minimize missed cases.  
+Overall, the models showed balanced precision, recall, and AUC metrics, highlighting the project’s success in developing accurate and reliable heart disease risk predictions.
+
+| Model                  | Accuracy | Precision | Recall  | F1 Score | ROC AUC  |
+|-------------------------|----------|-----------|---------|----------|----------|
+| **Random Forest**       | 87.5%    | 87.6%     | 90.2%   | 88.9%    | 92.4%    |
+| **XGBoost**             | 87.0%    | 89.8%     | 86.3%   | 88.0%    | 92.3%    |
+| **Logistic Regression** | 87.5%    | 85.6%     | 93.1%   | 89.2%    | 89.6%    |
+
 
 ## Skills Demonstrated
 - Data cleaning and visualization with Pandas, Matplotlib, and Seaborn  
